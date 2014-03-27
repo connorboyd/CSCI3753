@@ -12,6 +12,6 @@ do
 
 			for trial in a b c
 			do
-				(sudo /usr/bin/time -f "Real: %E,\tUser: %U,\tSystem: %S,\tContext Switches: %w" ./os_test $PARAM1 $PARAM2 $PARAM3) 2>> results.txt
+				(sudo /usr/bin/time -f "Real: %E,\tUser: %U,\tSystem: %S,\tContext Switches: %w" ./os_test $PARAM1 $PARAM2 $PARAM3) >> output.txt
 
 
