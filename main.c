@@ -33,7 +33,7 @@
 		return dist(0, 0, x, y);
 	}
 
-	void cpu(long iterations)
+	void cpu()
 	{
 		long i;
 		double x, y;
@@ -43,7 +43,7 @@
 		double piCalc = 0.0;
 
 		/* Calculate pi using statistical methode across all iterations*/
-		for(i=0; i<iterations; i++)
+		for(i=0; i < DEFAULT_ITERATIONS; i++)
 		{
 			x = (random() % (RADIUS * 2)) - RADIUS;
 			y = (random() % (RADIUS * 2)) - RADIUS;
@@ -153,9 +153,77 @@
 
 
 
-
+	//argv[1] = scheduler; argv[2] = test type; argv[3] = load
 	int main(int argc, char* argv[])
 	{
-		mixed();
+		int policy; // Scheduling policy
+		struct sched_param param;
+		int numProcesses;
+		int processType;
+
+		if(argc != 4)
+		{
+			printf("argc isn't 4!\n");
+			exit(EXIT_FAILURE);
+		}
+
+		if(!strcmp(argv[1], "SCHED_OTHER"))
+		    policy = SCHED_OTHER;
+		else if(!strcmp(argv[1], "SCHED_FIFO"))
+		    policy = SCHED_FIFO;
+		else if(!strcmp(argv[1], "SCHED_RR"))
+		    policy = SCHED_RR;
+
+		/* Set process to max prioty for given scheduler */
+		param.sched_priority = sched_get_priority_max(policy);
+		sched_setscheduler(0, policy, &param);
+
+		// Get process type from argv
+		if(!strcmp(argv[2], "CPU"))
+		    processType = 1;
+		else if(!strcmp(argv[2], "IO"))
+		    processType = 2;
+		else if(!strcmp(argv[2], "MIXED"))
+		    processType = 3;
+
+		// Get number of forks from argv
+		if(!strcmp(argv[3], "LOW"))
+		    numProcesses = 10;
+		else if(!strcmp(argv[3], "MEDIUM"))
+		    numProcesses = 70;
+		    numProcesses = 300;
+
+		int pid;
+
+		int i = 0;
+		while(i < numProcesses)	//fork a whole bunch
+		{
+			++i;
+			pid = fork();
+			if(pid == 0)	//break if this is a child process
+				break;
+
+		}
+
+		if(pid == 0)	//only child processes
+		{
+			if(processType == 1)
+				cpu();
+			else if(processType == 2)
+				io();
+			else if(processType == 3)
+				mixed();
+		}
+
+		// Wait for child processes
+		while(pid = waitpid(-1, NULL, 0) )
+		{
+			if(errno == ECHILD)
+				break;
+		}
+
+
+
+
 		return 0;
 	}
