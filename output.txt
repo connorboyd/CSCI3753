@@ -1,0 +1,181 @@
+Output:\n
+SCHED_RR, LOW, CPU
+Real: 0:00.19,	User: 0.09,	System: 0.10,	Context Switches: 1
+Real: 0:00.19,	User: 0.06,	System: 0.12,	Context Switches: 1
+Real: 0:00.19,	User: 0.07,	System: 0.12,	Context Switches: 1
+\n
+SCHED, LOW, CPU
+Real: 0:00.19,	User: 0.07,	System: 0.11,	Context Switches: 1
+Real: 0:00.20,	User: 0.08,	System: 0.10,	Context Switches: 1
+Real: 0:00.19,	User: 0.08,	System: 0.11,	Context Switches: 1
+\n
+FIFO, LOW, CPU
+Real: 0:00.20,	User: 0.09,	System: 0.10,	Context Switches: 1
+Real: 0:00.20,	User: 0.09,	System: 0.10,	Context Switches: 1
+Real: 0:00.19,	User: 0.08,	System: 0.10,	Context Switches: 1
+\n
+SCHED_OTHER, LOW, CPU
+Real: 0:00.19,	User: 0.09,	System: 0.10,	Context Switches: 1
+Real: 0:00.23,	User: 0.08,	System: 0.14,	Context Switches: 1
+Real: 0:00.19,	User: 0.09,	System: 0.09,	Context Switches: 1
+\n
+SCHED_RR, MEDIUM, CPU
+Real: 0:00.19,	User: 0.06,	System: 0.12,	Context Switches: 1
+Real: 0:00.19,	User: 0.10,	System: 0.08,	Context Switches: 1
+Real: 0:00.19,	User: 0.10,	System: 0.08,	Context Switches: 1
+\n
+SCHED, MEDIUM, CPU
+Real: 0:00.19,	User: 0.06,	System: 0.12,	Context Switches: 1
+Real: 0:00.19,	User: 0.10,	System: 0.08,	Context Switches: 1
+Real: 0:00.19,	User: 0.09,	System: 0.09,	Context Switches: 1
+\n
+FIFO, MEDIUM, CPU
+Real: 0:00.19,	User: 0.07,	System: 0.12,	Context Switches: 1
+Real: 0:00.19,	User: 0.06,	System: 0.13,	Context Switches: 1
+Real: 0:00.19,	User: 0.07,	System: 0.11,	Context Switches: 1
+\n
+SCHED_OTHER, MEDIUM, CPU
+Real: 0:00.20,	User: 0.10,	System: 0.10,	Context Switches: 1
+Real: 0:00.19,	User: 0.07,	System: 0.11,	Context Switches: 1
+Real: 0:00.19,	User: 0.10,	System: 0.09,	Context Switches: 1
+\n
+SCHED_RR, HIGH, CPU
+Real: 0:00.19,	User: 0.07,	System: 0.11,	Context Switches: 1
+Real: 0:00.19,	User: 0.09,	System: 0.10,	Context Switches: 1
+Real: 0:00.19,	User: 0.07,	System: 0.12,	Context Switches: 1
+\n
+SCHED, HIGH, CPU
+Real: 0:00.19,	User: 0.11,	System: 0.08,	Context Switches: 1
+Real: 0:00.19,	User: 0.10,	System: 0.08,	Context Switches: 1
+Real: 0:00.19,	User: 0.07,	System: 0.11,	Context Switches: 1
+\n
+FIFO, HIGH, CPU
+Real: 0:00.19,	User: 0.08,	System: 0.10,	Context Switches: 1
+Real: 0:00.19,	User: 0.10,	System: 0.09,	Context Switches: 1
+Real: 0:00.21,	User: 0.11,	System: 0.10,	Context Switches: 1
+\n
+SCHED_OTHER, HIGH, CPU
+Real: 0:00.19,	User: 0.07,	System: 0.12,	Context Switches: 1
+Real: 0:00.21,	User: 0.10,	System: 0.11,	Context Switches: 1
+Real: 0:00.20,	User: 0.10,	System: 0.10,	Context Switches: 1
+\n
+SCHED_RR, LOW, IO
+Real: 0:00.20,	User: 0.09,	System: 0.11,	Context Switches: 1
+Real: 0:00.21,	User: 0.10,	System: 0.10,	Context Switches: 1
+Real: 0:00.19,	User: 0.08,	System: 0.10,	Context Switches: 1
+\n
+SCHED, LOW, IO
+Real: 0:00.19,	User: 0.09,	System: 0.10,	Context Switches: 1
+Real: 0:00.19,	User: 0.10,	System: 0.09,	Context Switches: 1
+Real: 0:00.19,	User: 0.08,	System: 0.11,	Context Switches: 1
+\n
+FIFO, LOW, IO
+Real: 0:00.19,	User: 0.07,	System: 0.11,	Context Switches: 1
+Real: 0:00.20,	User: 0.10,	System: 0.10,	Context Switches: 1
+Real: 0:00.19,	User: 0.10,	System: 0.08,	Context Switches: 1
+\n
+SCHED_OTHER, LOW, IO
+Real: 0:00.19,	User: 0.08,	System: 0.10,	Context Switches: 1
+Real: 0:00.19,	User: 0.08,	System: 0.10,	Context Switches: 1
+Real: 0:00.19,	User: 0.08,	System: 0.11,	Context Switches: 1
+\n
+SCHED_RR, MEDIUM, IO
+Real: 0:00.19,	User: 0.12,	System: 0.07,	Context Switches: 1
+Real: 0:00.21,	User: 0.09,	System: 0.12,	Context Switches: 1
+Real: 0:00.21,	User: 0.10,	System: 0.10,	Context Switches: 1
+\n
+SCHED, MEDIUM, IO
+Real: 0:00.21,	User: 0.09,	System: 0.11,	Context Switches: 1
+Real: 0:00.20,	User: 0.11,	System: 0.09,	Context Switches: 1
+Real: 0:00.22,	User: 0.10,	System: 0.12,	Context Switches: 1
+\n
+FIFO, MEDIUM, IO
+Real: 0:00.23,	User: 0.10,	System: 0.12,	Context Switches: 1
+Real: 0:00.24,	User: 0.11,	System: 0.13,	Context Switches: 1
+Real: 0:00.21,	User: 0.09,	System: 0.12,	Context Switches: 1
+\n
+SCHED_OTHER, MEDIUM, IO
+Real: 0:00.19,	User: 0.08,	System: 0.11,	Context Switches: 1
+Real: 0:00.19,	User: 0.10,	System: 0.08,	Context Switches: 1
+Real: 0:00.19,	User: 0.08,	System: 0.10,	Context Switches: 1
+\n
+SCHED_RR, HIGH, IO
+Real: 0:00.19,	User: 0.09,	System: 0.10,	Context Switches: 1
+Real: 0:00.19,	User: 0.09,	System: 0.09,	Context Switches: 1
+Real: 0:00.19,	User: 0.09,	System: 0.09,	Context Switches: 1
+\n
+SCHED, HIGH, IO
+Real: 0:00.19,	User: 0.10,	System: 0.09,	Context Switches: 1
+Real: 0:00.20,	User: 0.12,	System: 0.08,	Context Switches: 1
+Real: 0:00.20,	User: 0.09,	System: 0.10,	Context Switches: 1
+\n
+FIFO, HIGH, IO
+Real: 0:00.21,	User: 0.10,	System: 0.11,	Context Switches: 1
+Real: 0:00.20,	User: 0.08,	System: 0.12,	Context Switches: 1
+Real: 0:00.19,	User: 0.09,	System: 0.10,	Context Switches: 1
+\n
+SCHED_OTHER, HIGH, IO
+Real: 0:00.19,	User: 0.08,	System: 0.10,	Context Switches: 1
+Real: 0:00.20,	User: 0.08,	System: 0.12,	Context Switches: 1
+Real: 0:00.20,	User: 0.09,	System: 0.11,	Context Switches: 1
+\n
+SCHED_RR, LOW, MIXED
+Real: 0:00.20,	User: 0.09,	System: 0.11,	Context Switches: 1
+Real: 0:00.19,	User: 0.10,	System: 0.08,	Context Switches: 1
+Real: 0:00.19,	User: 0.08,	System: 0.11,	Context Switches: 1
+\n
+SCHED, LOW, MIXED
+Real: 0:00.20,	User: 0.10,	System: 0.09,	Context Switches: 1
+Real: 0:00.19,	User: 0.07,	System: 0.12,	Context Switches: 1
+Real: 0:00.19,	User: 0.10,	System: 0.09,	Context Switches: 1
+\n
+FIFO, LOW, MIXED
+Real: 0:00.19,	User: 0.09,	System: 0.10,	Context Switches: 1
+Real: 0:00.19,	User: 0.06,	System: 0.12,	Context Switches: 1
+Real: 0:00.19,	User: 0.11,	System: 0.08,	Context Switches: 1
+\n
+SCHED_OTHER, LOW, MIXED
+Real: 0:00.20,	User: 0.13,	System: 0.07,	Context Switches: 1
+Real: 0:00.22,	User: 0.09,	System: 0.12,	Context Switches: 1
+Real: 0:00.24,	User: 0.13,	System: 0.11,	Context Switches: 1
+\n
+SCHED_RR, MEDIUM, MIXED
+Real: 0:00.23,	User: 0.11,	System: 0.11,	Context Switches: 1
+Real: 0:00.21,	User: 0.08,	System: 0.12,	Context Switches: 1
+Real: 0:00.21,	User: 0.13,	System: 0.08,	Context Switches: 1
+\n
+SCHED, MEDIUM, MIXED
+Real: 0:00.23,	User: 0.09,	System: 0.13,	Context Switches: 1
+Real: 0:00.21,	User: 0.07,	System: 0.13,	Context Switches: 1
+Real: 0:00.23,	User: 0.10,	System: 0.12,	Context Switches: 1
+\n
+FIFO, MEDIUM, MIXED
+Real: 0:00.21,	User: 0.08,	System: 0.13,	Context Switches: 1
+Real: 0:00.22,	User: 0.10,	System: 0.11,	Context Switches: 1
+Real: 0:00.23,	User: 0.09,	System: 0.13,	Context Switches: 1
+\n
+SCHED_OTHER, MEDIUM, MIXED
+Real: 0:00.22,	User: 0.08,	System: 0.13,	Context Switches: 1
+Real: 0:00.23,	User: 0.11,	System: 0.12,	Context Switches: 1
+Real: 0:00.23,	User: 0.10,	System: 0.12,	Context Switches: 1
+\n
+SCHED_RR, HIGH, MIXED
+Real: 0:00.22,	User: 0.11,	System: 0.10,	Context Switches: 1
+Real: 0:00.22,	User: 0.09,	System: 0.12,	Context Switches: 1
+Real: 0:00.21,	User: 0.11,	System: 0.10,	Context Switches: 1
+\n
+SCHED, HIGH, MIXED
+Real: 0:00.22,	User: 0.08,	System: 0.14,	Context Switches: 1
+Real: 0:00.24,	User: 0.09,	System: 0.15,	Context Switches: 1
+Real: 0:00.25,	User: 0.10,	System: 0.14,	Context Switches: 1
+\n
+FIFO, HIGH, MIXED
+Real: 0:00.20,	User: 0.09,	System: 0.11,	Context Switches: 1
+Real: 0:00.24,	User: 0.10,	System: 0.13,	Context Switches: 1
+Real: 0:00.24,	User: 0.12,	System: 0.12,	Context Switches: 1
+\n
+SCHED_OTHER, HIGH, MIXED
+Real: 0:00.24,	User: 0.10,	System: 0.14,	Context Switches: 1
+Real: 0:00.23,	User: 0.11,	System: 0.12,	Context Switches: 1
+Real: 0:00.23,	User: 0.10,	System: 0.13,	Context Switches: 1
+\n

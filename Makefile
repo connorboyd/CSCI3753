@@ -12,7 +12,7 @@ INPUTBLOCKS = $(shell echo $(INPUTFILESIZEBYTES)\/$(INPUTBLOCKSIZEBYTES) | bc)
 
 .PHONY: all clean
 
-all: pi pi-sched rw rr_quantum
+all: pi pi-sched rw rr_quantum main
 
 pi: pi.o
 	$(CC) $(LFLAGS) $^ -o $@ -lm
@@ -41,8 +41,14 @@ rwinput: Makefile
 rr_quantum.o: rr_quantum.c
 	$(CC) $(CFLAGS) $<
 
+main.o: main.c
+	$(CC) $(CFLAGS) $<
+
+main: main.o
+	$(CC) $(LFLAGS) $^ -o $@ -lm
+
 clean: testclean
-	rm -f pi pi-sched rw rr_quantum
+	rm -f pi pi-sched rw rr_quantum main
 	rm -f rwinput
 	rm -f *.o
 	rm -f *~
