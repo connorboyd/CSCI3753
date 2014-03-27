@@ -10,3 +10,8 @@ do
 		do
 			echo "$SCHEDULER, $LOAD, $PROCESS_TYPE" >> output.txt
 
+			for trial in a b c
+			do
+				(sudo /usr/bin/time -f "User: %U,\tSystem: %S,\tReal: %E,\tContext Switches: %w" ./os_test $PARAM1 $PARAM2 $PARAM3) 2>> results.txt
+
+
