@@ -42,12 +42,13 @@ int main(int argc, char* argv[]){
 
     /* Process program arguments to select iterations and policy */
     /* Set default iterations if not supplied */
-    if(argc < 2){
-	iterations = DEFAULT_ITERATIONS;
+    if(argc < 2)
+    {
+	   iterations = DEFAULT_ITERATIONS;
     }
     /* Set default policy if not supplied */
     if(argc < 3){
-	policy = SCHED_OTHER;
+	   policy = SCHED_OTHER;
     }
     /* Set iterations if supplied */
     if(argc > 1){
