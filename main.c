@@ -12,6 +12,9 @@
 #include <math.h>
 #include <errno.h>
 #include <sched.h>
+#include <unistd.h>
+#include <sys/types.h>
+#include <sys/wait.h>
 
 #define DEFAULT_ITERATIONS 1000000
 #define RADIUS (RAND_MAX / 2)
