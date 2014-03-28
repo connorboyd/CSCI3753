@@ -1,136 +1,136 @@
 Output:\n
 SCHED_RR, LOW, CPU
-Real: 0:10.77,	User: 9.59,	System: 0.09,	Context Switches: 303
-Real: 0:10.82,	User: 9.58,	System: 0.10,	Context Switches: 303
-Real: 0:10.81,	User: 9.62,	System: 0.05,	Context Switches: 302
+Real: 0:00.36,	User: 0.33,	System: 0.00,	Context Switches: 12
+Real: 0:00.36,	User: 0.34,	System: 0.00,	Context Switches: 12
+Real: 0:00.36,	User: 0.34,	System: 0.00,	Context Switches: 12
 
 SCHED_FIFO, LOW, CPU
-Real: 0:10.79,	User: 9.58,	System: 0.06,	Context Switches: 303
-Real: 0:10.78,	User: 9.59,	System: 0.07,	Context Switches: 302
-Real: 0:10.70,	User: 9.54,	System: 0.07,	Context Switches: 302
+Real: 0:00.37,	User: 0.34,	System: 0.00,	Context Switches: 12
+Real: 0:00.38,	User: 0.32,	System: 0.00,	Context Switches: 12
+Real: 0:00.36,	User: 0.33,	System: 0.00,	Context Switches: 12
 
 SCHED_OTHER, LOW, CPU
-Real: 0:12.35,	User: 9.57,	System: 0.10,	Context Switches: 593
-Real: 0:10.50,	User: 9.66,	System: 0.09,	Context Switches: 597
-Real: 0:10.65,	User: 9.66,	System: 0.08,	Context Switches: 597
+Real: 0:00.38,	User: 0.32,	System: 0.02,	Context Switches: 21
+Real: 0:00.37,	User: 0.30,	System: 0.03,	Context Switches: 21
+Real: 0:00.40,	User: 0.37,	System: 0.00,	Context Switches: 21
 
 SCHED_RR, MEDIUM, CPU
-Real: 0:10.82,	User: 9.62,	System: 0.04,	Context Switches: 303
-Real: 0:10.81,	User: 9.64,	System: 0.04,	Context Switches: 302
-Real: 0:10.81,	User: 9.66,	System: 0.05,	Context Switches: 302
+Real: 0:02.59,	User: 2.32,	System: 0.00,	Context Switches: 72
+Real: 0:02.57,	User: 2.26,	System: 0.02,	Context Switches: 73
+Real: 0:02.58,	User: 2.23,	System: 0.02,	Context Switches: 73
 
 SCHED_FIFO, MEDIUM, CPU
-Real: 0:10.84,	User: 9.60,	System: 0.07,	Context Switches: 303
-Real: 0:10.91,	User: 9.68,	System: 0.07,	Context Switches: 302
-Real: 0:10.84,	User: 9.58,	System: 0.10,	Context Switches: 303
+Real: 0:02.64,	User: 2.30,	System: 0.02,	Context Switches: 72
+Real: 0:02.57,	User: 2.26,	System: 0.02,	Context Switches: 72
+Real: 0:02.61,	User: 2.26,	System: 0.01,	Context Switches: 72
 
 SCHED_OTHER, MEDIUM, CPU
-Real: 0:10.36,	User: 9.57,	System: 0.09,	Context Switches: 596
-Real: 0:10.30,	User: 9.54,	System: 0.09,	Context Switches: 595
-Real: 0:10.38,	User: 9.59,	System: 0.08,	Context Switches: 598
+Real: 0:02.60,	User: 2.36,	System: 0.02,	Context Switches: 138
+Real: 0:02.56,	User: 2.32,	System: 0.02,	Context Switches: 141
+Real: 0:02.57,	User: 2.33,	System: 0.02,	Context Switches: 138
 
 SCHED_RR, HIGH, CPU
-Real: 0:10.83,	User: 9.68,	System: 0.03,	Context Switches: 302
-Real: 0:10.85,	User: 9.62,	System: 0.07,	Context Switches: 302
-Real: 0:10.85,	User: 9.62,	System: 0.06,	Context Switches: 302
+Real: 0:11.21,	User: 9.86,	System: 0.06,	Context Switches: 302
+Real: 0:11.20,	User: 9.86,	System: 0.10,	Context Switches: 303
+Real: 0:11.28,	User: 9.93,	System: 0.06,	Context Switches: 303
 
 SCHED_FIFO, HIGH, CPU
-Real: 0:10.74,	User: 9.57,	System: 0.07,	Context Switches: 302
-Real: 0:10.89,	User: 9.66,	System: 0.06,	Context Switches: 302
-Real: 0:10.84,	User: 9.60,	System: 0.07,	Context Switches: 302
+Real: 0:11.27,	User: 9.85,	System: 0.06,	Context Switches: 303
+Real: 0:11.19,	User: 9.81,	System: 0.08,	Context Switches: 302
+Real: 0:11.21,	User: 9.82,	System: 0.07,	Context Switches: 302
 
 SCHED_OTHER, HIGH, CPU
-Real: 0:10.33,	User: 9.55,	System: 0.08,	Context Switches: 598
-Real: 0:10.37,	User: 9.60,	System: 0.08,	Context Switches: 595
-Real: 0:10.35,	User: 9.55,	System: 0.08,	Context Switches: 596
+Real: 0:10.78,	User: 9.91,	System: 0.08,	Context Switches: 595
+Real: 0:10.82,	User: 9.92,	System: 0.11,	Context Switches: 597
+Real: 0:10.81,	User: 9.91,	System: 0.12,	Context Switches: 597
 
 SCHED_RR, LOW, IO
-Real: 0:30.84,	User: 0.02,	System: 28.92,	Context Switches: 303
-Real: 0:31.03,	User: 0.01,	System: 29.08,	Context Switches: 304
-Real: 0:30.89,	User: 0.00,	System: 28.94,	Context Switches: 304
+Real: 0:00.99,	User: 0.00,	System: 0.97,	Context Switches: 13
+Real: 0:01.11,	User: 0.00,	System: 1.00,	Context Switches: 13
+Real: 0:01.07,	User: 0.00,	System: 1.00,	Context Switches: 13
 
 SCHED_FIFO, LOW, IO
-Real: 0:30.90,	User: 0.01,	System: 28.93,	Context Switches: 302
-Real: 0:30.88,	User: 0.00,	System: 28.94,	Context Switches: 302
-Real: 0:30.90,	User: 0.01,	System: 28.96,	Context Switches: 302
+Real: 0:01.05,	User: 0.00,	System: 0.99,	Context Switches: 12
+Real: 0:01.06,	User: 0.00,	System: 0.99,	Context Switches: 12
+Real: 0:01.05,	User: 0.00,	System: 0.99,	Context Switches: 12
 
 SCHED_OTHER, LOW, IO
-Real: 0:29.43,	User: 0.00,	System: 28.71,	Context Switches: 597
-Real: 0:29.46,	User: 0.01,	System: 28.74,	Context Switches: 599
-Real: 0:29.54,	User: 0.01,	System: 28.86,	Context Switches: 596
+Real: 0:01.03,	User: 0.00,	System: 0.99,	Context Switches: 21
+Real: 0:01.06,	User: 0.00,	System: 0.99,	Context Switches: 21
+Real: 0:01.05,	User: 0.00,	System: 0.98,	Context Switches: 21
 
 SCHED_RR, MEDIUM, IO
-Real: 0:30.83,	User: 0.02,	System: 28.89,	Context Switches: 304
-Real: 0:30.91,	User: 0.01,	System: 28.96,	Context Switches: 303
-Real: 0:30.85,	User: 0.02,	System: 28.88,	Context Switches: 304
+Real: 0:07.40,	User: 0.00,	System: 6.96,	Context Switches: 73
+Real: 0:07.40,	User: 0.00,	System: 6.87,	Context Switches: 73
+Real: 0:07.32,	User: 0.00,	System: 6.86,	Context Switches: 73
 
 SCHED_FIFO, MEDIUM, IO
-Real: 0:30.85,	User: 0.02,	System: 28.93,	Context Switches: 302
-Real: 0:30.88,	User: 0.02,	System: 28.94,	Context Switches: 303
-Real: 0:30.85,	User: 0.01,	System: 28.96,	Context Switches: 303
+Real: 0:07.17,	User: 0.00,	System: 6.73,	Context Switches: 73
+Real: 0:07.23,	User: 0.00,	System: 6.75,	Context Switches: 72
+Real: 0:07.18,	User: 0.00,	System: 6.76,	Context Switches: 72
 
 SCHED_OTHER, MEDIUM, IO
-Real: 0:29.43,	User: 0.01,	System: 28.73,	Context Switches: 596
-Real: 0:30.64,	User: 0.00,	System: 29.36,	Context Switches: 597
-Real: 0:29.35,	User: 0.00,	System: 28.67,	Context Switches: 598
+Real: 0:07.00,	User: 0.00,	System: 6.76,	Context Switches: 140
+Real: 0:06.93,	User: 0.00,	System: 6.69,	Context Switches: 139
+Real: 0:06.91,	User: 0.00,	System: 6.70,	Context Switches: 140
 
 SCHED_RR, HIGH, IO
-Real: 0:30.90,	User: 0.02,	System: 28.96,	Context Switches: 303
-Real: 0:30.85,	User: 0.01,	System: 28.89,	Context Switches: 303
-Real: 0:30.94,	User: 0.00,	System: 29.00,	Context Switches: 303
+Real: 0:30.79,	User: 0.00,	System: 28.93,	Context Switches: 304
+Real: 0:30.85,	User: 0.02,	System: 28.91,	Context Switches: 304
+Real: 0:30.94,	User: 0.00,	System: 29.00,	Context Switches: 304
 
 SCHED_FIFO, HIGH, IO
-Real: 0:30.89,	User: 0.02,	System: 28.99,	Context Switches: 303
-Real: 0:30.83,	User: 0.02,	System: 28.96,	Context Switches: 303
-Real: 0:31.01,	User: 0.03,	System: 29.06,	Context Switches: 303
+Real: 0:30.85,	User: 0.02,	System: 28.92,	Context Switches: 302
+Real: 0:30.84,	User: 0.01,	System: 28.96,	Context Switches: 302
+Real: 0:30.95,	User: 0.02,	System: 29.00,	Context Switches: 303
 
 SCHED_OTHER, HIGH, IO
-Real: 0:29.37,	User: 0.02,	System: 28.64,	Context Switches: 599
-Real: 0:29.39,	User: 0.01,	System: 28.68,	Context Switches: 599
-Real: 0:29.39,	User: 0.00,	System: 28.64,	Context Switches: 595
+Real: 0:29.40,	User: 0.00,	System: 28.68,	Context Switches: 598
+Real: 0:29.45,	User: 0.00,	System: 28.70,	Context Switches: 598
+Real: 0:29.45,	User: 0.01,	System: 28.69,	Context Switches: 595
 
 SCHED_RR, LOW, MIXED
-Real: 0:58.21,	User: 25.37,	System: 29.34,	Context Switches: 303
-Real: 0:58.14,	User: 25.12,	System: 29.49,	Context Switches: 303
-Real: 0:58.18,	User: 25.51,	System: 29.16,	Context Switches: 303
+Real: 0:01.88,	User: 0.80,	System: 1.00,	Context Switches: 12
+Real: 0:01.92,	User: 0.83,	System: 0.98,	Context Switches: 12
+Real: 0:01.92,	User: 0.78,	System: 1.02,	Context Switches: 12
 
 SCHED_FIFO, LOW, MIXED
-Real: 0:58.17,	User: 25.63,	System: 29.05,	Context Switches: 302
-Real: 0:58.12,	User: 25.71,	System: 28.91,	Context Switches: 303
-Real: 0:58.24,	User: 25.32,	System: 29.34,	Context Switches: 302
+Real: 0:01.92,	User: 0.88,	System: 0.93,	Context Switches: 12
+Real: 0:01.93,	User: 0.85,	System: 0.96,	Context Switches: 12
+Real: 0:01.95,	User: 0.84,	System: 1.00,	Context Switches: 12
 
 SCHED_OTHER, LOW, MIXED
-Real: 0:55.29,	User: 25.00,	System: 29.51,	Context Switches: 600
-Real: 0:55.25,	User: 25.00,	System: 29.48,	Context Switches: 595
-Real: 0:55.12,	User: 25.38,	System: 29.01,	Context Switches: 599
+Real: 0:01.90,	User: 0.86,	System: 0.95,	Context Switches: 20
+Real: 0:01.90,	User: 0.89,	System: 0.93,	Context Switches: 20
+Real: 0:01.91,	User: 0.84,	System: 0.99,	Context Switches: 21
 
 SCHED_RR, MEDIUM, MIXED
-Real: 0:58.19,	User: 25.16,	System: 29.53,	Context Switches: 303
-Real: 0:58.09,	User: 24.96,	System: 29.63,	Context Switches: 303
-Real: 0:58.14,	User: 24.96,	System: 29.67,	Context Switches: 303
+Real: 0:13.43,	User: 5.74,	System: 6.94,	Context Switches: 72
+Real: 0:13.61,	User: 5.91,	System: 6.86,	Context Switches: 72
+Real: 0:13.48,	User: 5.78,	System: 6.91,	Context Switches: 72
 
 SCHED_FIFO, MEDIUM, MIXED
-Real: 0:58.06,	User: 25.03,	System: 29.58,	Context Switches: 302
-Real: 0:58.07,	User: 25.35,	System: 29.25,	Context Switches: 303
-Real: 0:58.26,	User: 25.00,	System: 29.76,	Context Switches: 303
+Real: 0:13.54,	User: 5.95,	System: 6.76,	Context Switches: 72
+Real: 0:13.47,	User: 5.81,	System: 6.86,	Context Switches: 72
+Real: 0:13.55,	User: 5.89,	System: 6.82,	Context Switches: 72
 
 SCHED_OTHER, MEDIUM, MIXED
-Real: 0:55.15,	User: 25.05,	System: 29.33,	Context Switches: 596
-Real: 0:56.14,	User: 25.28,	System: 30.08,	Context Switches: 600
-Real: 0:58.43,	User: 26.40,	System: 31.26,	Context Switches: 599
+Real: 0:12.92,	User: 5.98,	System: 6.70,	Context Switches: 141
+Real: 0:12.93,	User: 5.94,	System: 6.73,	Context Switches: 139
+Real: 0:12.98,	User: 5.98,	System: 6.76,	Context Switches: 141
 
 SCHED_RR, HIGH, MIXED
-Real: 1:00.74,	User: 26.27,	System: 30.89,	Context Switches: 304
-Real: 1:01.14,	User: 26.65,	System: 30.84,	Context Switches: 304
-Real: 1:01.11,	User: 26.34,	System: 31.10,	Context Switches: 304
+Real: 0:58.16,	User: 24.92,	System: 29.82,	Context Switches: 303
+Real: 0:58.14,	User: 24.99,	System: 29.64,	Context Switches: 303
+Real: 0:58.10,	User: 24.92,	System: 29.69,	Context Switches: 303
 
 SCHED_FIFO, HIGH, MIXED
-Real: 1:01.66,	User: 26.60,	System: 31.36,	Context Switches: 303
-Real: 1:01.92,	User: 27.34,	System: 30.91,	Context Switches: 303
-Real: 1:02.03,	User: 27.49,	System: 30.85,	Context Switches: 303
+Real: 0:58.02,	User: 25.04,	System: 29.51,	Context Switches: 303
+Real: 0:58.29,	User: 25.12,	System: 29.72,	Context Switches: 302
+Real: 0:58.05,	User: 25.49,	System: 29.07,	Context Switches: 303
 
 SCHED_OTHER, HIGH, MIXED
-Real: 1:00.78,	User: 28.59,	System: 31.42,	Context Switches: 594
-Real: 1:00.37,	User: 28.10,	System: 31.46,	Context Switches: 596
-Real: 1:01.07,	User: 28.49,	System: 31.73,	Context Switches: 600
+Real: 0:55.11,	User: 25.05,	System: 29.22,	Context Switches: 600
+Real: 0:55.18,	User: 24.87,	System: 29.48,	Context Switches: 598
+Real: 0:55.25,	User: 24.78,	System: 29.65,	Context Switches: 598
 

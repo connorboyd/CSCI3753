@@ -194,6 +194,7 @@
 		    numProcesses = 10;
 		else if(!strcmp(argv[3], "MEDIUM"))
 		    numProcesses = 70;
+		else if(!strcmp(argv[3], "HIGH"))
 		    numProcesses = 300;
 
 		int pid;
@@ -219,7 +220,7 @@
 		}
 
 		// Wait for child processes
-		while(pid = waitpid(-1, NULL, 0) )
+		while( pid = waitpid(-1, NULL, 0) )
 		{
 			if(errno == ECHILD)
 				break;
